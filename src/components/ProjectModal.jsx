@@ -132,7 +132,7 @@ export default function ProjectModal({ project, onClose }) {
                   <div className="browser-address-pill">
                     <Lock size={12} className="address-lock-icon" />
                     <span className="address-text">
-                      https://{currentScreen.route || 'bizpulse-1.onrender.com'}
+                      https://{currentScreen.route || (project.live ? project.live.replace(/^https?:\/\//, '').replace(/\/$/, '') : 'demo.app')}
                     </span>
                   </div>
 

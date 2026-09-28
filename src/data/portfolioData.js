@@ -164,6 +164,90 @@ export const projects = [
       "Full Team Leadership: Mentored a 4-engineer team, defined REST schema contracts, and coordinated Git branching workflows.",
       "Responsive Academic Feeds: Notice board feeds with real-time category filtering and search."
     ],
+    thumbnail: "/projects/campushub/campushub-admin-dashboard.png",
+    screenshots: [
+      {
+        id: "admin-dashboard",
+        title: "Admin Dashboard & System Overview",
+        shortTitle: "Overview",
+        url: "/projects/campushub/campushub-admin-dashboard.png",
+        route: "campushub-fcw0.onrender.com/admin",
+        caption: "Institutional Metrics & Operational Console",
+        description: "Executive administrative dashboard displaying real-time counters for Total Students (1), Faculty (1), Academic Departments (5), and Subjects Offered (1) alongside centralized console shortcuts."
+      },
+      {
+        id: "landing",
+        title: "Landing Page & Portal Gateway",
+        shortTitle: "Landing",
+        url: "/projects/campushub/campushub-landing.png",
+        route: "campushub-fcw0.onrender.com",
+        caption: "Unified College Management Gateway",
+        description: "Modern landing experience introducing CampusHub v1.0, highlighting digital enrollment, assignment feedback, attendance logging, and note sharing."
+      },
+      {
+        id: "login",
+        title: "Role-Based Authentication",
+        shortTitle: "Sign In",
+        url: "/projects/campushub/campushub-login.png",
+        route: "campushub-fcw0.onrender.com/login",
+        caption: "Secure Credential Gate & Preset Admin Logins",
+        description: "Secure authentication interface issuing JWT tokens with HTTP-only cookie security, featuring pre-filled default system administrator demo credentials."
+      },
+      {
+        id: "departments",
+        title: "Departments Directory",
+        shortTitle: "Departments",
+        url: "/projects/campushub/campushub-departments.png",
+        route: "campushub-fcw0.onrender.com/admin/departments",
+        caption: "Academic Streams & Branch Management",
+        description: "Administrative directory for configuring academic branches including Civil, Computer Science, Electronics & Communication, Information Technology, and Mechanical Engineering."
+      },
+      {
+        id: "subjects",
+        title: "Subjects Syllabus Registry",
+        shortTitle: "Subjects",
+        url: "/projects/campushub/campushub-subjects.png",
+        route: "campushub-fcw0.onrender.com/admin/subjects",
+        caption: "Curriculum Schema & Faculty Mapping",
+        description: "Syllabus management console allowing administrators to create academic subjects, designate semester terms, and bind assigned subject matter faculty."
+      },
+      {
+        id: "faculty",
+        title: "Faculty Directory Console",
+        shortTitle: "Faculty",
+        url: "/projects/campushub/campushub-faculty.png",
+        route: "campushub-fcw0.onrender.com/admin/faculty",
+        caption: "Teacher Registration & Department Assignment",
+        description: "Faculty management console facilitating instructor registration, verified school email provisioning, initial passwords, and departmental stream assignments."
+      },
+      {
+        id: "students",
+        title: "Students Directory Console",
+        shortTitle: "Students",
+        url: "/projects/campushub/campushub-students.png",
+        route: "campushub-fcw0.onrender.com/admin/students",
+        caption: "Student Onboarding & Semester Rosters",
+        description: "Centralized student directory enabling administrators to enroll students, configure departmental streams, track semester levels, and manage academic records."
+      },
+      {
+        id: "notices",
+        title: "Campus Notice Board",
+        shortTitle: "Notice Board",
+        url: "/projects/campushub/campushub-notices.png",
+        route: "campushub-fcw0.onrender.com/admin/notices",
+        caption: "Real-Time Bulletin & Announcement Publisher",
+        description: "Digital circular dispatch board enabling administrators to publish urgent university notices, exam date sheets, and general circulars across departments."
+      },
+      {
+        id: "profile",
+        title: "Profile & Security Settings",
+        shortTitle: "Profile",
+        url: "/projects/campushub/campushub-profile.png",
+        route: "campushub-fcw0.onrender.com/admin/profile",
+        caption: "Account Details & Password Security",
+        description: "Administrative account management for updating full names, institutional email addresses, Multer profile avatar uploads, and updating security passwords."
+      }
+    ],
     github: "https://github.com/sahilrai0201/CampusHub",
     live: "https://campushub-fcw0.onrender.com/"
   },

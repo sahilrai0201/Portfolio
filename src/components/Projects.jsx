@@ -60,7 +60,7 @@ export default function Projects() {
                         <div className="card-browser-address">
                           <Lock size={11} className="text-cyan" />
                           <span className="address-text">
-                            https://{currentScreen.route || 'bizpulse-1.onrender.com'}
+                            https://{currentScreen.route || (project.live ? project.live.replace(/^https?:\/\//, '').replace(/\/$/, '') : 'demo.app')}
                           </span>
                         </div>
                         <div className="card-browser-badge">
